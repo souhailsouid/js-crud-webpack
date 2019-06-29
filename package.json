@@ -1,0 +1,36 @@
+{
+	"name": "project_webpack_babel_js_crud",
+	"version": "1.0.0",
+	"description": "Starter pack for compiling ES6+ apps to ES5",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server",
+		"build": "webpack",
+		"json:server": "json-server --watch api/db.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/souhailsouid/js-crud-webpack.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/souhailsouid/js-crud-webpack/issues"
+	},
+	"homepage": "https://github.com/souhailsouid/js-crud-webpack#readme",
+	"devDependencies": {
+		"@babel/plugin-transform-runtime": "^7.4.4",
+		"webpack": "^4.35.0",
+		"webpack-cli": "^3.3.5",
+		"webpack-dev-server": "^3.7.2"
+	},
+	"dependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/polyfill": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/runtime": "^7.4.5",
+		"babel-loader": "^8.0.6",
+		"json-server": "^0.15.0"
+	}
+}
